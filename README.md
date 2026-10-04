@@ -87,18 +87,7 @@ Then open the notebook and select the `jev-explore` kernel.
 1. Activate the environment
 2. Confirm your `.env` values are set
 3. Run the notebook cells in order
-4. For reranking calls, ensure the API key exists before creating `JevReranker`
 
-Example:
-
-```python
-from jev_reranker import JevReranker
-
-reranker = JevReranker(
-    api_key="your_openrouter_api_key_here",
-    endpoint="https://openrouter.ai/api",
-)
-```
 
 ## 6) Troubleshooting
 
